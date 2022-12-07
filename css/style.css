@@ -1,0 +1,106 @@
+/* * Fonts import */
+/* https://fonts.google.com */
+/* https://webfonts.pro */
+/* https://transfonter.org (ttf to woff, woff2) */
+
+/*  &display=swap */
+/*  for cyrillic:    &subset=cyrillic-ex */
+
+/* * Fonts local import */
+
+/* * Icons Fonts */
+/* https://www.iconfinder.com/ */
+/* https://icomoon.io */
+/* * Reset styles */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* default size: 16px*/
+}
+body {
+	line-height: 1; /* default: 1*/
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	background: url("../img/station.jpg") 0 0 / cover no-repeat;
+	/* font-family, color */
+	/* font-size */
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ---------------------------------- */
+
+.header {
+	text-align: center;
+}
+.header__title {
+	margin: 10px 0px;
+}
+.header__counter {
+	font-size: 50px;
+	margin: 0px 0px 20px 0px;
+}
+.main {
+	margin: 0px auto;
+	text-align: center;
+}
+.main__button {
+	border: none;
+	padding: 10px 0px;
+	color: #fff;
+	font-weight: 700;
+	width: 200px;
+	margin: 0px 0px 5px 0px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.main > *:not(:last-child) {
+	margin-bottom: 10px;
+}
+.button_color_red {
+	background: darkred;
+}
+
+.button_color_green {
+	background: darkgreen;
+}
+
+.button_color_purple {
+	background-color: #77608d;
+}
+.button_color_light-green {
+	background-color: #7a956b;
+}
